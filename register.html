@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi Toyz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="logo" href="home.html"><img src="images/logo.png" width="130"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="event.html">Event</a></li>
+                </ul>
+            </div>
+            <a id="account" href="register.html"><img src="images/account.png" width="65" height="58"></a>
+        </nav>
+    </header>
+
+    <main>
+        <img id="biru" src="images/biru.png">
+        <p id="create"><b>Create an account</b></p>
+        <p id="already">Start for free and get attractive offers.</p>
+        <nav>
+            <a href="event.html" id="login">See Promo</a>
+         </nav>
+         <img id="woodyreg" src="images/woody.png" width="250">
+         <div class="register">
+            <p id="reg"><b>Register</b></p>
+            <form method="post">
+                <input type="text" placeholder="First Name" id="fname" size="21">
+                <br><br>
+                <input type="text" placeholder="Last Name" id="lname" size="21">
+                <br><br>
+                <input type="email" placeholder="Email Address" id="email" size="45">
+                <br><br>
+                <input type="date" placeholder="Date of Birth" id="date" size="45">
+                <br><br>
+                <input type="password" placeholder="Password" id="pass" size="45">
+                <br><br>
+                <input type="password" placeholder="Confirm Password" id="conpass" size="45">
+                <div class="terms">
+                    <input type="checkbox" id="terms1" name="terms">
+                    <label for="terms">I Agree with Terms and Conditions</label>
+                </div>
+                <br>
+                <button type="button" onclick="validateData()" id="submit"><b>REGISTER</b></button>
+            </form>
+            <script src="script.js"></script>
+            <hr id="line1">
+            <hr id="line2">
+            <p id="continue">or continue with</p>
+            <div class="continue1">
+                <img src="images/applereg.png" width="40">
+                <img src="images/googlereg.png" width="40">
+                <img src="images/facebookreg.png" width="40">
+            </div>
+         </div>
+    </main>
+    
+</body>
+</html>
